@@ -5,6 +5,7 @@ import Resume from "../src/components/Resume";
 import Contact from "../src/components/Contact";
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
+import facebook from './assets/icons/facebook.png';
 
 function App() {
   const [pageSelected, setPageSelected] = useState("");
@@ -32,7 +33,7 @@ function App() {
             <a href="/">Brandon Anderson</a>
           </h1>
         </div>
-
+        <div className="nav-bar">
         <h2>
           <a href="#about">
             <span onClick={() => setPageSelected("about")}>About</span>
@@ -53,6 +54,7 @@ function App() {
             <span onClick={() => setPageSelected("resume")}>Resumé</span>
           </a>
         </h2>
+        </div>
       </header>
       {renderPage(pageSelected)}
       <footer>
@@ -64,6 +66,12 @@ function App() {
           href="https://www.linkedin.com/in/branderson-1a6987159"
         >
           <img src={linkedin} height="32px" alt="linkedin-icon"/>
+        </a>
+        <a
+          target="_blank" rel="noreferrer"
+          href="https://www.facebook.com/Ryobia"
+        >
+          <img src={facebook} height="32px" alt="facebook-icon"/>
         </a>
       </footer>
     </div>

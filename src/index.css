@@ -24,6 +24,11 @@ header {
   
 }
 
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h2 {
   padding: 20px;
 }
