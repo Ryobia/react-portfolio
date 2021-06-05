@@ -5,7 +5,8 @@ import Resume from "../src/components/Resume";
 import Contact from "../src/components/Contact";
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
-import facebook from './assets/icons/facebook.png';
+import facebook from "./assets/icons/facebook.png";
+import Home from "../src/components/Home";
 
 function App() {
   const [pageSelected, setPageSelected] = useState("");
@@ -21,57 +22,59 @@ function App() {
       case "resume":
         return <Resume />;
       default:
-        return <About />;
+        return <Home />;
     }
   }
 
   return (
     <div>
       <header>
-        <div>
+        <div className="nav-bar">
           <h1>
-            <a href="/">Brandon Anderson</a>
+            <a href="/">Home</a>
+          </h1>
+          <h1>
+            <a href="#about">
+              <span onClick={() => setPageSelected("about")}>About</span>
+            </a>
+          </h1>
+          <h1>
+            <a href="#portfolio">
+              <span onClick={() => setPageSelected("portfolio")}>
+                Portfolio
+              </span>
+            </a>
+          </h1>
+          <h1>
+            <a href="#contact">
+              <span onClick={() => setPageSelected("contact")}>Contact</span>
+            </a>
+          </h1>
+          <h1>
+            <a href="#resume">
+              <span onClick={() => setPageSelected("resume")}>Resumé</span>
+            </a>
           </h1>
         </div>
-        <div className="nav-bar">
-        <h2>
-          <a href="#about">
-            <span onClick={() => setPageSelected("about")}>About</span>
-          </a>
-        </h2>
-        <h2>
-          <a href="#portfolio">
-            <span onClick={() => setPageSelected("portfolio")}>Portfolio</span>
-          </a>
-        </h2>
-        <h2>
-          <a href="#contact">
-            <span onClick={() => setPageSelected("contact")}>Contact</span>
-          </a>
-        </h2>
-        <h2>
-          <a href="#resume">
-            <span onClick={() => setPageSelected("resume")}>Resumé</span>
-          </a>
-        </h2>
-        </div>
       </header>
-      {renderPage(pageSelected)}
+      <main>{renderPage(pageSelected)}</main>
       <footer>
         <a target="_blank" rel="noreferrer" href="https://github.com/Ryobia">
-          <img src={github} height="32px" alt="github-icon"/>
+          <img src={github} height="32px" alt="github-icon" />
         </a>
         <a
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/branderson-1a6987159"
         >
-          <img src={linkedin} height="32px" alt="linkedin-icon"/>
+          <img src={linkedin} height="32px" alt="linkedin-icon" />
         </a>
         <a
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/Ryobia"
         >
-          <img src={facebook} height="32px" alt="facebook-icon"/>
+          <img src={facebook} height="32px" alt="facebook-icon" />
         </a>
       </footer>
     </div>
