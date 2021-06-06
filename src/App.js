@@ -3,10 +3,12 @@ import About from "../src/components/About";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Contact from "../src/components/Contact";
+import Home from "../src/components/Home";
+
+import gmail from './assets/icons/gmail.png';
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
 import facebook from "./assets/icons/facebook.png";
-import Home from "../src/components/Home";
 
 function App() {
   const [pageSelected, setPageSelected] = useState("");
@@ -59,6 +61,14 @@ function App() {
       </header>
       <main>{renderPage(pageSelected)}</main>
       <footer>
+        <h2>Contact Me:</h2>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto: ryobia36@gmail.com"
+        >
+          <img src={gmail} height="32px" alt="gmail-icon" />
+        </a>
         <a target="_blank" rel="noreferrer" href="https://github.com/Ryobia">
           <img src={github} height="32px" alt="github-icon" />
         </a>
