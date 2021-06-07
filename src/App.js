@@ -33,7 +33,7 @@ function App() {
       <header>
         <div className="nav-bar">
           <h1>
-            <a href="/">Home</a>
+            <a href="#home">Home</a>
           </h1>
           <h1>
             <a href="#about">
