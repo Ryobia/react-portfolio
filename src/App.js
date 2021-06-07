@@ -5,7 +5,7 @@ import Resume from "../src/components/Resume";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 
-import gmail from './assets/icons/gmail.png';
+import gmail from "./assets/icons/gmail.png";
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
 import facebook from "./assets/icons/facebook.png";
@@ -23,6 +23,8 @@ function App() {
         return <Contact />;
       case "resume":
         return <Resume />;
+      case "home":
+        return <Home />;
       default:
         return <Home />;
     }
@@ -33,7 +35,9 @@ function App() {
       <header>
         <div className="nav-bar">
           <h1>
-            <a href="#home">Home</a>
+            <a href="#home">
+              <span onClick={() => setPageSelected("about")}>Home</span>
+            </a>
           </h1>
           <h1>
             <a href="#about">
@@ -62,11 +66,7 @@ function App() {
       <main>{renderPage(pageSelected)}</main>
       <footer>
         <h2>Contact Me:</h2>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="mailto: ryobia36@gmail.com"
-        >
+        <a target="_blank" rel="noreferrer" href="mailto: ryobia36@gmail.com">
           <img src={gmail} height="32px" alt="gmail-icon" />
         </a>
         <a target="_blank" rel="noreferrer" href="https://github.com/Ryobia">
