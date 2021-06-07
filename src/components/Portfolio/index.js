@@ -18,10 +18,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={ghost} height="300px" alt="ghostwriter" />
+            <img className="work-img" src={ghost} height="300px" alt="ghostwriter" />
           </a>
           <h3 className="centered">
-            Ghostwriter{" "}
+            {/* Ghostwriter{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
@@ -39,10 +39,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={nightIn} height="300px" alt="a-night-in" />
+            <img className="work-img" src={nightIn} height="300px" alt="a-night-in" />
           </a>
           <h3 className="centered">
-            A Night In{" "}
+            {/* A Night In{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
@@ -59,10 +59,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={runBuddy} height="300px" alt="runbuddy" />
+            <img className="work-img" src={runBuddy} height="300px" alt="runbuddy" />
           </a>
           <h3 className="centered">
-            Run Buddy{" "}
+            {/* Run Buddy{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
@@ -79,10 +79,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={budget} height="300px" alt="team-profile-generator" />
+            <img className="work-img" src={budget} height="300px" alt="team-profile-generator" />
           </a>
           <h3 className="centered">
-            PWA - Budget Tracker{" "}
+            {/* PWA - Budget Tracker{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
@@ -99,10 +99,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={weather} height="300px" alt="weather-dashboard" />
+            <img className="work-img" src={weather} height="300px" alt="weather-dashboard" />
           </a>
           <h3 className="centered">
-            Weather Dashboard{" "}
+            {/* Weather Dashboard{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
@@ -119,10 +119,10 @@ function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={schedule} height="300px" alt="day-scheduler" />
+            <img className="work-img" src={schedule} height="300px" alt="day-scheduler" />
           </a>
           <h3 className="centered">
-            Day Scheduler{" "}
+            {/* Day Scheduler{" "} */}
             <a
               target="_blank"
               rel="noreferrer"
