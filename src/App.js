@@ -36,7 +36,7 @@ function App() {
         <div className="nav-bar">
           <h1>
             <a href="#home">
-              <span onClick={() => setPageSelected("about")}>Home</span>
+              <span onClick={() => setPageSelected("home")}>Home</span>
             </a>
           </h1>
           <h1>
