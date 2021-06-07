@@ -16,7 +16,7 @@
 
 ## Installation
 
-    npm i
+   npm i
   
   
 
@@ -26,7 +26,7 @@
 
 ## Tests
 
-    Deployed link is: [Here](https://ryobia.github.io/react-portfolio/)
+   Deployed link is [Here](https://ryobia.github.io/react-portfolio/)
   
   
 
