@@ -11,6 +11,7 @@ import linkedin from "./assets/icons/linkedin.png";
 import facebook from "./assets/icons/facebook.png";
 
 function App() {
+  
   const [pageSelected, setPageSelected] = useState("");
 
   function renderPage(props) {
@@ -63,7 +64,9 @@ function App() {
           </h1>
         </div>
       </header>
-      <main>{renderPage(pageSelected)}</main>
+      <main>
+        {renderPage(pageSelected)}
+      </main>
       <footer>
         <h2>Contact Me:</h2>
         <a target="_blank" rel="noreferrer" href="mailto: ryobia36@gmail.com">

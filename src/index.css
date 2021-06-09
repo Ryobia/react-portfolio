@@ -10,6 +10,10 @@ html {
   min-height: 100%;
 }
 
+.alert {
+  color: rgb(218, 76, 76);
+}
+
 body {
   font-family: "Saira Semi Condensed", sans-serif;
   margin: 0;
@@ -185,6 +189,12 @@ button[disabled] {
   padding-top: 8em;
   color: var(--secondary);
 }
+
+.resume-div a {
+  text-decoration: underline;
+}
+
+
 
 footer {
   display: flex;
