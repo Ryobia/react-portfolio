@@ -199,7 +199,7 @@ button[disabled] {
 footer {
   display: flex;
   justify-content: space-evenly;
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
