@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6b3a5b82.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d6861369.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d6861369.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.3bbc1e22.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3bbc1e22.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f8812455.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f8812455.js.map",
     "static/js/2.342258e6.chunk.js": "/react-portfolio/static/js/2.342258e6.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/night-in.e49c9aae.png": "/react-portfolio/static/media/night-in.e49c9aae.png",
     "static/media/profile2.ed5e9dc8.jpg": "/react-portfolio/static/media/profile2.ed5e9dc8.jpg",
     "static/media/profile5.0e05d39f.jpg": "/react-portfolio/static/media/profile5.0e05d39f.jpg",
+    "static/media/resume.1660d87a.pdf": "/react-portfolio/static/media/resume.1660d87a.pdf",
     "static/media/run-buddy.8a4e7b0f.png": "/react-portfolio/static/media/run-buddy.8a4e7b0f.png",
     "static/media/schedule.f0297bcf.png": "/react-portfolio/static/media/schedule.f0297bcf.png",
     "static/media/weather.d294f2c3.png": "/react-portfolio/static/media/weather.d294f2c3.png"
@@ -26,6 +27,6 @@
     "static/js/runtime-main.f8812455.js",
     "static/js/2.342258e6.chunk.js",
     "static/css/main.6b3a5b82.chunk.css",
-    "static/js/main.d6861369.chunk.js"
+    "static/js/main.3bbc1e22.chunk.js"
   ]
 }
