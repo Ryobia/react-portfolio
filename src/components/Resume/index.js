@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/resume.pdf';
 
 function Resume() {
 
@@ -17,7 +18,7 @@ function Resume() {
 
                 </ul>
 
-           <h2><a target="_blank" href="https://docs.google.com/document/d/1CHFmXE2Um4eTYwURbuXyIJjlbciRYVVICYaxLg8JFzI/edit?usp=sharing" className="title">View my Resumé here</a></h2>
+           <h2><a target="_blank" download href={resume} className="title">View my Resumé here</a></h2>
         </div>
 
     )
