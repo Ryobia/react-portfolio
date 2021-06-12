@@ -4,7 +4,7 @@ import resume from '../../assets/resume.pdf';
 function Resume() {
 
     return (
-        <div className="resume-div">
+        <div className="resume-div fade-in">
             <h2 className="title-resume">Skills</h2>
                 <ul className="list">
                     <li>HTML</li>

@@ -9,7 +9,7 @@ import schedule from "../../assets/work/schedule.png";
 
 function Portfolio() {
   return (
-    <div className="portfolio-div">
+    <div className="portfolio-div fade-in">
       <h1 className="title">My Work</h1>
       <div className="work-div">
         <div className="container">

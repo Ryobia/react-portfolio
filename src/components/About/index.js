@@ -3,7 +3,7 @@ import profile from "../../assets/profile/profile5.jpg";
 
 function About() {
   return (
-    <div className="about-div">
+    <div className="about-div fade-in">
       <div className="about-img">
         <img src={profile} height="600px" alt="profile"/>
       </div>

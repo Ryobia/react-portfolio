@@ -4,7 +4,7 @@ import profile from '../../assets/profile/profile2.jpg';
 function Home() {
 
     return(
-        <div className="home-div">
+        <div className="home-div fade-in">
             <img src={profile} height='300px' className="profile-img" alt="profilepic"/>
             <h1 className="title">I'm Brandon Anderson</h1>
             <h3>I am a Full Stack Web Developer. I am currently enrolled in a Full Stack coding bootcamp through the University of Utah. 

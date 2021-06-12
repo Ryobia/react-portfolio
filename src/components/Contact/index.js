@@ -39,7 +39,7 @@ function ContactForm() {
   }
 
   return (
-    <section className="contact-div">
+    <section className="contact-div fade-in">
       <h2 className="alert">Use links at bottom of page, this form is not yet fully functional</h2>
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
