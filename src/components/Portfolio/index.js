@@ -27,10 +27,11 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/Ryobia/story-telling-app"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
-          <div className="bottom-right"></div>
+
+          <p className="centered-text">A site where you can tell stories - Node.js/ MySQL/ Sequelize/ Handlebars</p>
         </div>
 
         <div className="container">
@@ -48,9 +49,10 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/alyssawinn/a-night-in"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
+          <p className="centered-text">A site to help you plan your next Night-In - Web API's/ localstorage/ DOM manipulation</p>
         </div>
 
         <div className="container">
@@ -68,9 +70,10 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/Ryobia/run-buddy"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
+          <p className="centered-text">A site built for a running/phyical fitness website - HTML/CSS</p>
         </div>
 
         <div className="container">
@@ -88,9 +91,10 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/Ryobia/budget-tracker-week19"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
+          <p className="centered-text">A PWA where you can track your budget - Manifest.json/ indexedDB/ service worker</p>
         </div>
 
         <div className="container">
@@ -108,9 +112,10 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/Ryobia/weather-dash"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
+          <p className="centered-text">Find the weather for anywhere in the world! - openweatherAPI/ DOM Manipulation/ JQuery</p>
         </div>
 
         <div className="container">
@@ -128,9 +133,10 @@ function Portfolio() {
               rel="noreferrer"
               href="https://github.com/Ryobia/Scheduler"
             >
-              <img src={github} height="48px" alt="github-icon" />
+              <img src={github} height="35px" alt="github-icon" />
             </a>
           </h3>
+          <p className="centered-text">Schedule your day a day at a time - Moment.js/ JQuery/ Bootstrap</p>
         </div>
       </div>
     </div>

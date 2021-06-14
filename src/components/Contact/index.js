@@ -41,6 +41,7 @@ function ContactForm() {
   return (
     <section className="contact-div fade-in">
       <h2 className="alert">Use links at bottom of page, this form is not yet fully functional</h2>
+      <h3>Or email me directly at: <a href="mailto:ryobia36@gmail.com"> ryobia36@gmail.com</a></h3>
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

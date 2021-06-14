@@ -35,7 +35,7 @@ html {
 }
 
 main {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 body {
@@ -113,7 +113,7 @@ a:hover {
   display: flex;
   margin: auto;
   text-align: center;
-  padding-top: 8em;
+  padding-top: 5em;
   color: var(--secondary);
 }
 
@@ -144,11 +144,22 @@ a:hover {
 
 .centered {
   position: absolute;
-  top: 40%;
+  top: 70%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: var(--light);
+  background-color: var(--tertiary);
+  border-radius: 20px;
+  padding: 0px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
-  background-color: var(--dark);
+  color: var(--light);
+  background-color: var(--tertiary);
   border-radius: 20px;
   padding: 5px;
 }
@@ -233,8 +244,7 @@ button[disabled] {
 footer {
   display: flex;
   justify-content: space-evenly;
-  position: fixed;
-  left: 0;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: var(--dark);
