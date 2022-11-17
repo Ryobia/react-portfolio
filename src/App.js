@@ -52,11 +52,11 @@ function App() {
               </span>
             </a>
           </h1>
-          <h1>
+          {/* <h1>
             <a href="#contact">
               <span onClick={() => setPageSelected("contact")}>Contact</span>
             </a>
-          </h1>
+          </h1> */}
           <h1>
             <a href="#resume">
               <span onClick={() => setPageSelected("resume")}>Resumé</span>
@@ -78,7 +78,7 @@ function App() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/branderson-1a6987159"
+          href="https://www.linkedin.com/in/1branderson/"
         >
           <img src={linkedin} height="32px" alt="linkedin-icon" />
         </a>

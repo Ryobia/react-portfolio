@@ -7,7 +7,7 @@
 }
 
 .fade-in {
-  animation: page-load .6s cubic-bezier(0.42, 0, 0.6, 1.35) forwards alternate;
+  animation: page-load .4s cubic-bezier(0.42, 0, 0.6, 1.35) forwards alternate;
 }
 
 
@@ -35,7 +35,7 @@ html {
 }
 
 main {
-  margin-bottom: 20px;
+  margin-bottom: 85px;
 }
 
 body {
@@ -69,22 +69,19 @@ header {
 
 }
 
-.nav-bar h1:hover {
+.nav-bar h1 a:hover {
   transform: translateY(3%);
-
+  background-color: var(--primary);
 }
 
-h1 {
-  padding: 20px;
+.nav-bar h1 a {
+  border-radius: 5px;
+  padding: .5em;
 }
 
 a {
   text-decoration: none;
   color: var(--secondary);
-}
-a:hover {
-  color: var(--tertiary);
-  
 }
 
 .title {
@@ -112,13 +109,16 @@ a:hover {
   width: 80%;
   display: flex;
   margin: auto;
-  text-align: center;
   padding-top: 5em;
   color: var(--secondary);
 }
 
 .about-text {
   padding-left: 2em;
+}
+
+.about-img img{
+  border-radius: .5em;
 }
 
 .portfolio-div {
@@ -219,7 +219,6 @@ button[disabled] {
 
 .work-div img:hover {
   opacity: 1;
-  transform: translateY(-5%);
 }
 
 
@@ -245,9 +244,9 @@ button[disabled] {
 footer {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  bottom: 0;
+  position: fixed;
   width: 100%;
+  bottom: 0;
   background-color: var(--dark);
   color: var(--secondary);
   text-align: center;
